@@ -1,0 +1,28 @@
+{
+    "extends": "@resideo/typescript-react",
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "node": true,
+        "jest": true
+      },
+      "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      },
+      "rules": {
+        "max-len": 0,
+        "max-lines-per-function": 0,
+        "quote-props": 0,
+        "react/jsx-indent": [2, 2],
+        "react/jsx-indent-props": [2, 2],
+        "react/jsx-filename-extension": 0,
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-no-literals": 0,
+        "react/jsx-one-expression-per-line": 0,
+        "react/jsx-max-depth": 0
+      },
+      "ignorePatterns": ["node_modules/", ".next/","__tests__/"]
+}
